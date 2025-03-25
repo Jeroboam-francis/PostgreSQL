@@ -28,7 +28,7 @@ Now, let us examine a few practical examples of using the `LIMIT` and `OFFSET` c
 
 Here we will query for 5 films starting from the seventh one ordered by `film_id` from the `film` table of our sample database.
 
-#### Query:
+#### Query
 
 ```sql
 SELECT
@@ -42,7 +42,7 @@ ORDER BY
 LIMIT 5 OFFSET 6;
 ```
 
-#### Explanation:
+#### Explanation
 
 This query retrieves 5 films starting from the seventh record (`OFFSET 6`) in the table, ordered by their `film_id`.
 

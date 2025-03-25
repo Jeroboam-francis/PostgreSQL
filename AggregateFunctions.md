@@ -146,7 +146,4 @@ HAVING SUM(Salary) > 600;
 ## Conclusion
 
 PostgreSQL Aggregate Functions are crucial for summarizing and analyzing large datasets. Whether you’re calculating totals, averages, or finding extreme values like maximum and minimum, these functions simplify data aggregation and help derive insights.
-
-```
-
 ```
